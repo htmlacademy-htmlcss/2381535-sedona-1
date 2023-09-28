@@ -1,0 +1,204 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  background-color: #fff;
+  color: #000;
+}
+
+/* Навигация */
+
+.navigation-list, .navigation-user{
+  list-style-type: none;
+}
+
+.navigation-link {
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+}
+
+/* Главная */
+
+.hero {
+  background-color: slategrey;
+  background-image: url("../images/index/index-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+/* Преимущества */
+
+.advantages-block {
+  text-align: center;
+}
+
+.advantages-title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.advantages-description {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.advantages-list {
+  list-style-type: none;
+}
+
+.advantages-item {
+  text-align: center;
+}
+
+.advantages-item h3 {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.advantages-item:nth-child(1),
+.advantages-item:nth-child(5) {
+  background-color: #82B3D3;
+  color: #FFFFFF;
+}
+
+.advantages-item:nth-child(3) {
+  background-color: rgba(131, 179, 211, 0.20);
+}
+
+.advantages-item:nth-child(2),
+.advantages-item:nth-child(4) {
+  background-color: rgb(131, 179, 211, 0.12);
+}
+
+/* Комфорт */
+
+.comfort-block {
+  text-align: center;
+}
+
+.comfort-title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.comfort-description {
+  color: #333;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.comfort-list {
+  list-style-type: none;
+}
+
+.comfort-item {
+  text-align: center;
+}
+
+.comfort-item h3 {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.comfort-item p {
+  color: #333;
+}
+
+.comfort-item:first-child,
+.comfort-item:last-child {
+  background-color: rgb(131, 179, 211, 0.12);
+}
+
+/* Поиск гостиницы */
+
+.search-hotel {
+  text-align: center;
+}
+
+.search-hotel-title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.search-hotel p {
+  font-size: 22px;
+  line-height: 26px;
+  color: #333;
+}
+
+/* Подписка на рассылку */
+
+.subscribe {
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-color: slategray;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.subscribe-title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.subscribe p {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+/* Подвал */
+/* Социальные сети */
+
+.footer-social-list {
+  list-style-type: none;
+}
+
+.footer-social-list a{
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+}
+
+.footer-phone-link {
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000;
+  text-decoration: none;
+}
