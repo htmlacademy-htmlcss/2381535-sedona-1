@@ -202,3 +202,155 @@ body {
   color: #000;
   text-decoration: none;
 }
+
+/* ---КАТАЛОГ--- */
+.filter-block {
+  background-color: #82B3D3;
+  color: #fff;
+  background-image: url("/images/catalog/background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.header-inner-title{
+  font-size: 60px;
+  line-height: 78px;
+  font-weight: 700;
+}
+
+.breadcrumbs {
+  list-style-type: none;
+}
+
+.breadcrumbs-item-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.form-filter-title {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.control-input {
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.sorting p {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.view {
+  list-style-type: none;
+}
+
+.view-icons,
+.view-gallery,
+.view-list {
+  text-decoration: none;
+  color: #000;
+}
+
+.cards-list {
+  list-style-type: none;
+}
+
+.card-item-title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+.btn-more {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #756157;
+  border-radius: 4px;
+  padding: 8px 50px;
+  height: 36px;
+  width: 140px;
+}
+
+/* .btn-toFavorites {
+  color: #fff;
+  background-color: #82B3D3;
+  border-radius: 4px;
+  height: 36px;
+  width: 140px;
+  border: 0;
+  padding: 8px 50px;
+}
+
+.btn-inFavorites {
+  color: #fff;
+  background-color: #7DB54F;
+  border-radius: 4px;
+  height: 36px;
+  width: 140px;
+  border: 0;
+  padding: 8px 50px;
+} */
+
+.card-item-rating {
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  background-color: #F2F2F2;
+  padding: 9px 22px 8px 23px;
+  border-radius: 4px;
+}
+
+.paagination {
+  list-style-type: none;
+}
+
+/* .pagination-item {
+  width: 60px;
+  height: 60px;
+  background-color: #82B3D3;
+  border-radius: 4px;
+} */
+
+.pagination-item-link {
+  color: #fff;
+  background-color: #82B3D3;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+}
+
+.pagination-current {
+  color: #000;
+  background-color: #F2F2F2;
+}
+
+.pagination-other {
+  color: #000;
+  background-color: #fff;
+}
+
+.subscribe-catalog-title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.subscribe-catalog p {
+  font-size: 22px;
+  line-height: 26px;
+}
