@@ -67,6 +67,10 @@ body {
   padding: 0;
 }
 
+.navigation-item:last-child {
+  margin-left: 20px;
+}
+
 .navigation-list .navigation-link {
   font-family: "PT Sans", sans-serif;
   font-size: 20px;
@@ -98,7 +102,7 @@ body {
   color: #fff;
   background-color: #756157;
   border-radius: 4px;
-  margin: 0 0 0 20px;
+  margin: 0;
 }
 
 .navigation-user .navigation-link {
@@ -638,7 +642,7 @@ body {
 }
 
 .select-control {
-  margin: auto 70px auto auto;
+  margin: 0;
   padding: 14px 20px;
   border-radius: 4px;
   border: 2px solid #E5E5E5;
@@ -655,13 +659,25 @@ body {
   display: block;
   border-radius: 4px;
   border: 2px solid #E5E5E5;
-  padding: 14px 12px;
+  /* padding: 14px 12px; */
+  width: 48px;
+  height: 48px;
+  margin-right: 8px;
 }
+
+.view-item:last-child {
+  margin-right: 0;
+}
+
 .view-icons,
 .view-gallery,
 .view-list {
   text-decoration: none;
   color: #000;
+}
+
+.view-item-current {
+  border: 2px solid #000;
 }
 
 /* --Карточки-- */
@@ -676,21 +692,42 @@ body {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(3, 340px);
+  gap: 20px;
 }
 
 .card-item {
-  width: 340px;
   display: flex;
   flex-direction: column;
+  padding: 20px;
+  border-radius: 4px;
+  border: 1px solid #E6E6E6;
+}
+
+.card-container {
+  margin-top: 16px;
+  display: grid;
+  grid-template-columns: 140px 140px;
+  gap: 20px 16px;
+  grid-template-areas:
+    "title        title"
+    "description  price"
+    "btn-more     favorites"
+    "stars        rating";
 }
 
 .card-item-title {
   font-size: 24px;
   line-height: 28px;
   font-weight: 700;
+  grid-area: title;
+  margin: 0;
+}
+
+.card-item-description {
+  grid-area: description;
+  margin: 0;
 }
 
 .btn-more {
@@ -702,9 +739,9 @@ body {
   color: #fff;
   background-color: #756157;
   border-radius: 4px;
-  padding: 8px 50px;
-  height: 36px;
-  width: 140px;
+  padding: 8px;
+  text-align: center;
+  grid-area: btn-more;
 }
 
 .btn-to-favorites {
@@ -712,10 +749,11 @@ body {
   background-color: #82B3D3;
   border-radius: 4px;
   border: 0;
-  padding: 8px 50px;
+  padding: 8px;
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
+  grid-area: favorites;
 }
 
 .btn-in-favorites {
@@ -723,10 +761,11 @@ body {
   background-color: #7DB54F;
   border-radius: 4px;
   border: 0;
-  padding: 8px 50px;
+  padding: 8px;
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
+  grid-area: favorites;
 }
 
 .card-item-rating {
@@ -736,6 +775,11 @@ body {
   background-color: #F2F2F2;
   padding: 9px 22px 8px 23px;
   border-radius: 4px;
+  grid-area: rating;
+}
+
+.card-item-stars {
+  grid-area: stars;
 }
 
 .paagination {
@@ -781,6 +825,7 @@ body {
 .pagination-other {
   color: #000;
   background-color: #fff;
+  border-radius: 0;
 }
 
 /* --Подписка-- */
