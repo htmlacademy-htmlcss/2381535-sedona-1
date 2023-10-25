@@ -730,6 +730,10 @@ body {
   margin: 0;
 }
 
+.card-item-price {
+  justify-self: end;
+}
+
 .btn-more {
   font-size: 16px;
   line-height: 20px;
