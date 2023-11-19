@@ -47,7 +47,6 @@
       <section class="hero">
         <h1 class="visually-hidden">Седона</h1>
         <img class="hero-logo-description" src="images/index/welcome.svg" width="458" height="352" alt="welcole to the Sedona">
-        <div class="hero-vector"></div>
       </section>
       <!-- 2 block -->
       <section class="advantages">
@@ -58,32 +57,32 @@
         </div>
 
         <ul class="advantages-list">
-          <li class="advantages-item grid_1">
-            <h3>Настоящий городок</h3>
-            <p>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
-          </li>
-          <li class="grid_2">
+          <li class="advantages-flex-block grid_1">
+            <div class="advantages-item">
+              <h3>Настоящий городок</h3>
+              <p>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+            </div>
             <img class="grid_image" src="images/index/photo-1.jpg" width="800" height="385" alt="Infrastructure in the city of Sedona">
           </li>
-          <li class="advantages-item grid_3">
+          <li class="advantages-item grid_2">
             <h3>Небольшая площадь</h3>
             <p>Все достопримечательности находятся очень близко</p>
           </li>
-          <li class="advantages-item grid_4">
+          <li class="advantages-item grid_3">
             <h3>Красивая дорога</h3>
             <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
           </li>
-          <li class="advantages-item grid_5">
+          <li class="advantages-item grid_4">
             <h3>Мало туристов</h3>
             <p>Большинство едет в Гранд Каньон и толпится там</p>
           </li>
-          <li class="grid_6">
+          <li class="advantages-flex-block grid_5">
             <img class="grid_image" src="images/index/photo-2.jpg" width="800" height="385" alt="Mounts">
-          </li>
-          <li class="advantages-item grid_7">
-            <h3>Там есть мост дьявола</h3>
-            <p>Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
-          </li>
+            <div class="advantages-item">
+              <h3>Там есть мост дьявола</h3>
+              <p>Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+            </div>
+            </li>
 
         </ul>
       </section>
@@ -95,15 +94,15 @@
           <p class="comfort-description">Опытный персонал и качественное обслуживание!</p>
         </div>
         <ul class="comfort-list">
-          <li class="comfort-item">
+          <li class="comfort-item hous-icon">
             <h3>Жильё</h3>
             <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
           </li>
-          <li class="comfort-item">
+          <li class="comfort-item burger-icon">
             <h3>Еда</h3>
             <p>Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
           </li>
-          <li class="comfort-item">
+          <li class="comfort-item surprise-icon">
             <h3>Сувениры</h3>
             <p>Не только китайского, но и настоящего местного производства!</p>
           </li>
@@ -114,7 +113,7 @@
         <h2 class="visually-hidden">Поиск гостиницы</h2>
         <span class="search-hotel-title">Заинтересовались?</span>
         <p>Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-        <button class="search-hotel-btn">ПОИСК ГОСТИНИЦЫ В седоне</button>
+        <button class="search-hotel-btn" type="button">ПОИСК ГОСТИНИЦЫ В седоне</button>
       </section>
       <!-- 5 block -->
       <section class="subscribe">
@@ -122,7 +121,7 @@
         <span class="subscribe-title">Подпишитесь на рассылку</span>
         <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
-          <input type="email" placeholder="Ваш e-mail">
+          <input type="email" placeholder="Ваш e-mail" name="email">
           <button class="subscribe-submit" type="submit">Подписаться</button>
         </form>
       </section>
