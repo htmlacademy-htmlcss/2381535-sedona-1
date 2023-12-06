@@ -154,14 +154,14 @@ body {
 }
 
 .navigation-link-search {
-  background-image: url("/images/search.svg");
+  background-image: url("../images/search.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .navigation-link-favorites {
   position: relative;
-  background-image: url("/images/heart.svg");
+  background-image: url("../images/heart.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -211,7 +211,7 @@ img {
 
 .hero {
   display: block;
-  background-color: #82B3D3;
+  background-color: #3f94cd;
   background-image: url("../images/index/vector.svg"), url("../images/index/index-background.jpg");
   background-repeat: no-repeat;
   background-position: bottom, center;
