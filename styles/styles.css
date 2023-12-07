@@ -787,6 +787,11 @@ img {
   background-position: center;
 }
 
+.control-input:disabled ~ .control-label,
+.control-input:disabled ~ .control-mark {
+  opacity: 0.3;
+}
+
 /* radio */
 
 .form-filter-radio .control-mark {
@@ -1215,7 +1220,7 @@ img {
 }
 
 .btn-more {
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-size: 16px;
   line-height: 20px;
   font-weight: 700;
@@ -1382,7 +1387,7 @@ img {
 }
 
 .modal-hidden {
-  display: none;
+  display: block;
 }
 
 .modal {
@@ -1605,6 +1610,10 @@ img {
 .modal-form-button:active {
   background-color: #68A2CA;
   color: rgba(255, 255, 255, 0.30);
+}
+
+.modal-form-button:disabled {
+  background-color: #E5E5E5;
 }
 
 /* Tooltip */
