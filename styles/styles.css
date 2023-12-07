@@ -97,6 +97,12 @@ body {
   background-color: #756257;
 }
 
+.navigation-link:focus-visible {
+  outline: 2px solid #68A2CA;
+  outline-offset: -2px;
+  border-radius: 4px;
+}
+
 .navigation-logo {
   margin: 0 28px 0 0;
   width: 140px;
@@ -145,6 +151,10 @@ body {
 .btn-more:active {
   background-color: #756157;
   color: rgba(255, 255, 255, 0.3);
+}
+
+.search-hotel-btn:disabled {
+  background-color: #E5E5E5;
 }
 
 .navigation-user .navigation-link {
@@ -979,6 +989,22 @@ img {
   background-color: #68A2CA;
 }
 
+.btn-more:disabled,
+.btn-in-favorites:disabled,
+.btn-to-favorites:disabled,
+.filter-button-submit:disabled {
+  background-color: #E5E5E5;
+}
+
+.filter-button-reset:disabled {
+  color: #FFFFFF;
+  opacity: 0.1;
+}
+
+.subscribe-submit:disabled {
+  background-color: #E5E5E5;
+}
+
 .filter-button-submit:active,
 .btn-to-favorites:active,
 .pagination-item-link:active,
@@ -1087,6 +1113,15 @@ img {
 .select-control:active {
   border-radius: 4px;
   outline: 2px solid #3F5E72;
+}
+
+.select-control:disabled {
+  outline: 2px solid  rgba(0, 0, 0, 0.30);
+}
+
+.control:disabled .control-mark,
+.control:disabled .control-label {
+  opacity: 0.3;
 }
 
 .view {
